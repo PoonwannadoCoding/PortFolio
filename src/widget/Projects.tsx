@@ -12,7 +12,7 @@ export default function Porject(){
 
     const yearList:number[] = [2021,2022,2023,2024];
 
-    const [curentYear, setCurrentYear] = useState<number>(yearList[yearList.length-1]);
+    const [currentYear, setCurrentYear] = useState<number>(yearList[yearList.length-1]);
 
     return(
         <div className="ProjectsContainer">
@@ -25,15 +25,15 @@ export default function Porject(){
                 colorScheme='dark'
                 username="PoonwannadoCoding"
                 //transformData={selectCurrentFullYear} 
-                year={curentYear}
+                year={currentYear}
                 labels={{
-                    totalCount: '{{count}} contributions in this year',
+                    totalCount: '{{count}} contributions in ' + currentYear,
                   }}
                 />
             }>
                 
             </Reveal>
-            <Grid container spacing={2} justifyContent="center"> {/* Centering the buttons */}
+            <Grid container spacing={2} justifyContent="left"> {}
                 {yearList.map((year, index) => (
                     <Grid item key={index}>
                         <Button name={String(year)} onclick={() => setCurrentYear(year)} />
