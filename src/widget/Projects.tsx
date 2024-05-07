@@ -1,10 +1,10 @@
 import './widget.css';
 import Reveal from './components/animation/RevealAnimation';
 import GitHubCalendar from 'react-github-calendar';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Button from './components/util/Button';
 import Grid from '@mui/material/Grid';
-
+import Card from './components/util/CardWidget';
 
 
 
@@ -24,7 +24,6 @@ export default function Porject(){
                 <GitHubCalendar 
                 colorScheme='dark'
                 username="PoonwannadoCoding"
-                //transformData={selectCurrentFullYear} 
                 year={currentYear}
                 labels={{
                     totalCount: '{{count}} contributions in ' + currentYear,
@@ -33,17 +32,39 @@ export default function Porject(){
             }>
                 
             </Reveal>
-            <Grid container spacing={2} justifyContent="left"> {}
+            <Reveal children={
+                <Grid container spacing={2} justifyContent="left"> {}
                 {yearList.map((year, index) => (
                     <Grid item key={index}>
                         <Button name={String(year)} onclick={() => setCurrentYear(year)} />
                     </Grid>
                 ))}
             </Grid>
+            }>
                 
-              
+            </Reveal>
             
+
+            <Reveal 
+            children={
+                <div>
+                    <h2 className="TextBoxSubHeader"> Mobile </h2>
+
+                    <Card ProjectName={'Pumpal'} Description={'Pumpal is a Mobile application that can calculate the fuel price and show the real-time fuel price for each petrol station.'} URL={'https://github.com/Karakapy/PumpPal'} />
+                </div>
             
+            } />
+
+            <Reveal 
+                children={
+                    <h2 className="TextBoxSubHeader"> Website </h2>
+            } />
+
+            <Reveal 
+                children={
+                    <h2 className="TextBoxSubHeader"> Game </h2>
+            } />
+
         </div>
     );
 }

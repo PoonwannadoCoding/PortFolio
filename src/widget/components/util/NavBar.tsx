@@ -8,10 +8,10 @@ function NavBar(){
             
         <a className="Left"> WP </a>
         <div className='NavBarRightSide'>
-            <a> Home</a>
-            <a> About Me</a>
-            <a> Project</a>
-            <a> Contact</a>
+            <a className='NavText'> Home</a>
+            <a className='NavText'> Skill-Set</a>
+            <a className='NavText'> Project</a>
+            <a className='NavText'> Contact</a>
         </div>
         
               

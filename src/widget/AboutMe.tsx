@@ -1,6 +1,5 @@
 import Grid from '@mui/material/Grid';
 import Reveal from './components/animation/RevealAnimation';
-import TextBox from './components/util/TextBox';
 import Chart from 'chart.js/auto';
 import { useEffect, useRef } from 'react';
 import TextBoxWithItem from './components/util/TextBoxWithItem';
@@ -73,13 +72,9 @@ function AboutMe(){
             <Grid container spacing={2}>
             <Grid item xs={6}>
             <Reveal 
-                children={
-                    <TextBox 
-                        Header={'About Me'} 
-                        Body={"With the dedicated developer with a passion for crafting digital experiences for over the past four years"}
-                    />
-                }
-            />
+            children={
+                <h1 className="TextBoxHeader"> Skill-Set </h1>
+            } />
 
             <Reveal children={
                 <TextBoxWithItem 

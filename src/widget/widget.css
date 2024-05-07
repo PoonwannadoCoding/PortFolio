@@ -25,8 +25,12 @@
 .NavBarRightSide{
     display: flex;
     margin-right: 2.5%;
+    
 }
 
+.NavText{
+    text-decoration: underline;
+}
 
 body {
     color: white;
@@ -91,6 +95,11 @@ body::before {
 
 .TextBoxHeader{
     font-size: 2.5vw;
+    text-decoration: underline;
+}
+
+.TextBoxSubHeader{
+    font-size: 1.5vw;
     text-decoration: underline;
 }
 
@@ -174,4 +183,30 @@ body::before {
 
   .ProjectsContainer{
     margin-left: 5%;
+  }
+
+  .CardContainer{
+    width: 500px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    z-index: 0;
+    padding-left: 10px;
+  }
+
+  .CardHeader{
+    text-decoration: underline;
+  }
+
+  .CardText{
+    font-size: 16px;
+
+  }
+
+  a:link{
+    color: white;
+  }
+
+  a:visited {
+    color: white;
   }
