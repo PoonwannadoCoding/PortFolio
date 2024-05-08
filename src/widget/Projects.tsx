@@ -51,6 +51,8 @@ export default function Porject(){
                     <h2 className="TextBoxSubHeader"> Mobile </h2>
 
                     <Card ProjectName={'Pumpal'} Description={'Pumpal is a Mobile application that can calculate the fuel price and show the real-time fuel price for each petrol station.'} URL={'https://github.com/Karakapy/PumpPal'} />
+                    <Card ProjectName={'Astro'} Description={'Astro is a Mobile application that use to track your friend location and create an event for hangout with your friends. Morevoer, it also provide the direction to the destination and calculate the estimate time arrive. In additional, this also have chat feature for chat with friends.'} URL={'https://github.com/ASTR-Studio/Astro-project'} />
+                    <Card ProjectName={'RentMyLove'} Description={'RentMyLove is the Booking application for the rental clothes business'} URL={'https://github.com/Karakapy/rentmylove'} />
                 </div>
             
             } />
