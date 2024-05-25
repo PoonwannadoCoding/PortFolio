@@ -103,6 +103,7 @@ body::before {
     text-decoration: underline;
 }
 
+
 .TextBoxBody{
 
     font-size: 1.25vw;
@@ -110,14 +111,36 @@ body::before {
     word-wrap: break-word;
 
 }
+
+@media only screen and (min-device-width:768px) {
+  .TextBoxBody{
+    font-size: 1.25vw;
+    width: 45vw;
+    word-wrap: break-word;
+
+}
+}
+
+@media only screen and (min-device-width:600px) {
+  .TextBoxBody{
+
+    font-size: 1.5vw;
+    width: 45vw;
+    word-wrap: break-word;
+
+}
+}
+
 .TitleDec{
     width: 50vw;
 }
+
 .IntroContainer{
     margin-top: 25vh;
     height: 1000px;
     width: 100vw;
 }
+
 
 .AboutMeWidget{
     margin-left: 5%;

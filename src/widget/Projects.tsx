@@ -33,7 +33,7 @@ export default function Porject(){
                 
             </Reveal>
             <Reveal children={
-                <Grid container spacing={2} justifyContent="left"> {}
+                <Grid container spacing={{xs:1, md:2}} justifyContent="left"> {}
                 {yearList.map((year, index) => (
                     <Grid item key={index}>
                         <Button name={String(year)} onclick={() => setCurrentYear(year)} />
@@ -62,7 +62,7 @@ export default function Porject(){
                     <h2 className="TextBoxSubHeader"> Website </h2>
             } />
 
-            <Reveal 
+            <Reveal  
                 children={
                     <h2 className="TextBoxSubHeader"> Game </h2>
             } />
