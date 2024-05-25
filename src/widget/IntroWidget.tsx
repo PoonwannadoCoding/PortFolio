@@ -12,7 +12,7 @@ function Intro(){
 
         <div className="IntroContainer">
             <Grid container spacing={2} >
-                <Grid item xs={12} md={6}>
+                <Grid item xs={14} md={6}>
                     <Reveal children={<TitleName HeaderText='Worawit Penglam' SubHeaderText="I'm Developer" Text={"My name is Worawit Penglam. I am a dedicated developer with a passion for crafting digital experiences. Over the past four years at university, I've immersed myself in the world of software development, specializing in mobile, website, and game development."}/>}/>  
                 </Grid>
                 <Grid item xs={12} md={6}>

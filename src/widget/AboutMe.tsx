@@ -70,7 +70,7 @@ function AboutMe(){
     return(
         <div className="AboutMeWidget">
             <Grid container spacing={2}>
-            <Grid item xs={6}>
+            <Grid item xs={12} md={6}>
             <Reveal 
             children={
                 <h1 className="TextBoxHeader"> Skill-Set </h1>
@@ -86,7 +86,7 @@ function AboutMe(){
             } />            
 
             </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
                     <div className='SpaceInAboutMe'></div>
                     <Reveal children={
                         <div className='chart-container'>

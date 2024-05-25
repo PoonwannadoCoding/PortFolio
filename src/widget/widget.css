@@ -58,7 +58,7 @@ body::before {
 }
 
 .HomeHeader {
-    font-size: 5vw;
+    font-size: 5.5vw;
     margin-top: 15%;
     margin-left: 5%;
     text-decoration: underline;
@@ -67,7 +67,7 @@ body::before {
 
 .HomeSubHeader{
     margin-top: -3.5vw;
-    font-size: 2.5vw;
+    font-size: 3vw;
     text-indent: 2vw;
     align-items: center;
   }
@@ -170,10 +170,17 @@ body::before {
     color: black;
 }
 
-.HomeText{
-    margin-top:  -0.25vw;;
-    margin-left: 5%;
+
+.HomeText {
+  font-size: 16px;
+  margin-top: -0.125vw;
+  margin-left: 5%;
 }
+
+
+
+
+
 
 
 
