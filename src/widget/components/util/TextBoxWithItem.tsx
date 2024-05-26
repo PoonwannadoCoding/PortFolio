@@ -12,7 +12,7 @@ function TextBoxWithItem( {Header1, Body1, Header2, Body2}:TextBoxComponent ){
         <div className="TextBoxBlackBG" style={{alignItems:"center"}}>
             <Grid container spacing={2}>
                 <Grid item xs={6}>
-                    <h1 className="TextBoxHeader" style={{fontSize:"1.5vw"}}>
+                    <h1 className="TextBoxHeader">
                         {Header1}
                     </h1>
                     <ul>
@@ -29,7 +29,7 @@ function TextBoxWithItem( {Header1, Body1, Header2, Body2}:TextBoxComponent ){
 
                 </Grid>
                 <Grid item xs={2}>
-                    <h1 className="TextBoxHeader" style={{fontSize:"1.5vw"}}>
+                    <h1 className="TextBoxHeader" >
                         {Header2}
                     </h1>
                     <ul>

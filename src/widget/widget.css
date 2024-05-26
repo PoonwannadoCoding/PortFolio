@@ -109,6 +109,34 @@ body::before {
     margin-left: 5%;
   }
 
+  .TextBoxBody{
+    font-size: 1.25vw;
+    width: 45vw;
+    word-wrap: break-word;
+
+}
+
+.TextBoxHeader{
+  font-size: 1.5vw;
+  text-decoration: underline;
+}
+
+.TextBoxSubHeader{
+  font-size: 1.5vw;
+  text-decoration: underline;
+}
+
+.TextBoxBlackBG{
+  padding: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  z-index: 0;
+}
+
   }
 
 
@@ -135,32 +163,25 @@ body::before {
 }
 
 .TextBoxHeader{
-    font-size: 2.5vw;
+    font-size: 16px;
     text-decoration: underline;
 }
 
 .TextBoxSubHeader{
-    font-size: 1.5vw;
+    font-size: 16px;
     text-decoration: underline;
 }
 
 
 .TextBoxBody{
 
-    font-size: 16px;
+    font-size: 14px;
     width: 45vw;
     word-wrap: break-word;
 
 }
 
-@media only screen and (min-width:768px) {
-  .TextBoxBody{
-    font-size: 1.25vw;
-    width: 45vw;
-    word-wrap: break-word;
 
-}
-}
 
 
 .TitleDec{
@@ -238,10 +259,10 @@ body::before {
 
   .TextBoxBlackBG{
     padding: 10px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-bottom: 10px;
-    width: 500px;
-    height: 500px;
+    width: 80vw;
+    height: 250px;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     z-index: 0;
